@@ -1,1 +1,33 @@
 /* write your override styles here */
+
+body {
+  background: white !important;
+  background-image: none !important;
+  color: black !important;
+  font-family: sans-serif !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#wall {
+  background: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  width: auto !important;
+  height: auto !important;
+  margin: 0 auto !important;
+  position: static !important;
+}
+
+.tag-1, #tag-2, #tag-3, #tag-4, #tag-5, #tag-6, #tag-7 {
+  display: none !important;
+  background: none !important;
+  position: static !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+div.parent {
+  all: unset !important;
+}
+
